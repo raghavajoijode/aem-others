@@ -1,0 +1,6 @@
+https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/using-crx2oak.html
+https://jackrabbit.apache.org/oak/docs/migration.html
+
+java -jar crx2oak.jar a1repo /opt/aem/author2/crx-quickstart/repository --trace --include-paths=/content/rjs-retail,/content/dam/rjs  --copy-versions=true
+
+delete datastore incase of nofds
